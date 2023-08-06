@@ -3,10 +3,7 @@ import express  from "express";
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({
-        status: 200,
-        message: "Server runing correctly"
-    })
+    res.send("Hola Render")
 })
 
 app.listen(3000, () => {
